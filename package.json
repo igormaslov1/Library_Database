@@ -1,0 +1,35 @@
+{
+  "Books": [
+    {
+      "title": "Red Riding Hood",
+      "author": "James",
+      "publisher": "Charles Perolt",
+      "genre": "Fairytale",
+      "language": "English",
+      "isbn": "9789888240791"
+    },
+    {
+      "title": "Red Riding Hood",
+      "author": "The Brothers Grim",
+      "publisher": "Charles Perolt",
+      "genre": "Fairytale",
+      "language": "English",
+      "isbn": "9789888240791"
+    }
+  ],
+  "name": "library-back-end",
+  "version": "1.0.0",
+  "description": "Library Database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Igor Maslov",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
