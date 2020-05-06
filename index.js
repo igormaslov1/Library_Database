@@ -1,14 +1,12 @@
-var express = require("express")
-var app = express()
+const library_data = {
+    results:
+        require('./package.json')
+}
+const library_data1 = {
+    results:
+        require('./tsconfig.json')
+}
 
-// Require the module we created above and that includes the two notification routes.
-var book_routes = require('./library_routes');
+module.exports.library_data = library_data;
 
-// Define an applicatiosn.
-var app = express()
-
-
-
-app.use('/notify', book_routes);
-
-
+module.exports.library_data1 = library_data1;
