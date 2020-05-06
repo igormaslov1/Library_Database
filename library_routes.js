@@ -66,13 +66,18 @@ app.get('/library/addBook/:title/:titleID/:author/:authorID/:publisher/:publishe
     }
     output_books[i] = book;
     const jsonString = JSON.stringify(output_books, null, 2)
-
+    let feedback = {}
     fs.writeFile('./tsconfig.json', jsonString, err => {
         if (err) {
-            res.send('Error writing file', err)
+            feedback = {
+                feedback : "Error writing file"
+            }
         } else {
-            res.send('Successfully wrote file')
+            feedback = {
+                feedback : "Book successfully added"
+            }
         }
+        res.send(feedback)
     })
 })
 
