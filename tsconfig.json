@@ -138,5 +138,96 @@
     "isbn": "9789629545703",
     "size": "114",
     "year": "1886"
-  }
+  },
+  {
+    "title":"Harry Potter and the Sorcerer's Stone",
+ "titleID":"Harry_Potter_and_the_Sorcerer_Stone",
+ "author":"J.K Rowling,
+ "authorID":"JK_Rowling",
+ "publisher":"Bloomsbury",
+ "publisherID":"bloomsbury",
+ "genre":"Fantasy Fiction",
+ "genreID":"fiction",
+ "language":"English",
+ "isbn":"0747532745",
+ "size":"223",
+ "year":"1997"
+},
+
+{
+  "title":"Harry Potter and the Chamber of Secrets",
+ "titleID":"Harry_Potter_and_the_Chamber_of_Secrets",
+ "author":"J.K Rowling,
+ "authorID":"JK_Rowling",
+ "publisher":"Bloomsbury",
+ "publisherID":"bloomsbury",
+ "genre":"Fantasy Fiction",
+ "genreID":"fiction",
+ "language":"English",
+ "isbn":"0747538492",
+ "size":"251",
+ "year":"1998"
+},
+
+
+{
+  "title":"Harry Potter and the Prisoner of Azkaban",
+ "titleID":"Harry_Potter_and_the_Prisoner_of_Azkaban",
+ "author":"J.K Rowling,
+ "authorID":"JK_Rowling",
+ "publisher":"Bloomsbury",
+ "publisherID":"bloomsbury",
+ "genre":"Fantasy Fiction",
+ "genreID":"fiction",
+ "language":"English",
+ "isbn":"0747542155",
+ "size":"317",
+ "year":"1999"
+},
+
+
+{
+  "title":"Harry Potter and the Goblet of Fire",
+ "titleID":"Harry_Potter_and_the_Goblet_of_Fire",
+ "author":"J.K Rowling,
+ "authorID":"JK_Rowling",
+ "publisher":"Bloomsbury",
+ "publisherID":"bloomsbury",
+ "genre":"Fantasy Fiction",
+ "genreID":"fiction",
+ "language":"English",
+ "isbn":"074754624X",
+ "size":"636",
+ "year":"2000"
+},
+
+{
+  "title":"Harry Potter and the Half Blood Prince",
+ "titleID":"Harry_Potter_and_the_Half_Blood_Prince",
+ "author":"J.K Rowling,
+ "authorID":"JK_Rowling",
+ "publisher":"Bloomsbury",
+ "publisherID":"bloomsbury",
+ "genre":"Fantasy Fiction",
+ "genreID":"fiction",
+ "language":"English",
+ "isbn":"0747581088",
+ "size":"607",
+ "year":"2005"
+},
+
+{
+  "title":"Harry Potter and the Deathly Hallows",
+ "titleID":"Harry_Potter_and_the_Deathly_Hallows",
+ "author":"J.K Rowling,
+ "authorID":"JK_Rowling",
+ "publisher":"Bloomsbury",
+ "publisherID":"bloomsbury",
+ "genre":"Fantasy Fiction",
+ "genreID":"fiction",
+ "language":"English",
+ "isbn":"0545010225",
+ "size":"607",
+ "year":"2007"
+}
 ]
