@@ -87,7 +87,7 @@ app.get('/library/byauthor/:author', function(req,res) {
     var output_books = []
     var i = 0;
     for(let val of current_library) {
-        if (val.authorID == author_name) {
+        if (val.authorID.includes(author_name) == true) {
             output_books[i] = val;
             i++
         }
@@ -112,8 +112,6 @@ app.get('/library/byBookTitle/:title', function(req,res) {
     var output_books = []
     var i = 0;
     for(let val of current_library) {
-        console.log(val.titleID)
-        console.log(title)
         if (val.titleID.includes(title) == true) {
             output_books[i] = val;
             i++
@@ -128,7 +126,7 @@ app.get('/library/byGenre/:genre', function(req,res) {
     var output_books = []
     var i = 0;
     for(let val of current_library) {
-        if (val.genreID == genre) {
+        if (val.genreID.includes(genre) == true) {
             output_books[i] = val;
             i++
         }
@@ -142,7 +140,21 @@ app.get('/library/byPublisher/:publisher', function(req,res) {
     var output_books = []
     var i = 0;
     for(let val of current_library) {
-        if (val.publisherID == publisher) {
+        if (val.publisherID.includes(publisher) == true) {
+            output_books[i] = val;
+            i++
+        }
+    }
+    res.send(output_books)
+})
+
+app.get('/library/byISBN/:isbn', function(req,res) {
+    var isbn = req.params['isbn'];
+    let current_library = library_data1["results"];
+    var output_books = []
+    var i = 0;
+    for(let val of current_library) {
+        if (val.isbn == isbn) {
             output_books[i] = val;
             i++
         }
