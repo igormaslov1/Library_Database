@@ -112,7 +112,9 @@ app.get('/library/byBookTitle/:title', function(req,res) {
     var output_books = []
     var i = 0;
     for(let val of current_library) {
-        if (val.titleID == title) {
+        console.log(val.titleID)
+        console.log(title)
+        if (val.titleID.includes(title) == true) {
             output_books[i] = val;
             i++
         }
